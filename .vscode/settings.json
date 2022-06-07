@@ -1,7 +1,5 @@
 {
-  "php-cs-fixer.onsave": true,
-  "php-cs-fixer.executablePath": "~/.vscode/php-cs-fixer-v3.phar",
-  "[php]": {
-    "editor.defaultFormatter": "junstyle.php-cs-fixer"
-  }
+  "php-cs-fixer.executablePath": "~/.vscode/php-cs-fixer-v2.phar", // PHP-CS-Fixer.pharの配置パス
+  "php-cs-fixer.formatHtml": true, // フォーマッター実行時にHMTLも整形する
+  "php-cs-fixer.onsave": true //
 }

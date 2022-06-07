@@ -1,0 +1,7 @@
+{
+  "php-cs-fixer.onsave": true, // 保存時に整形を実行
+  "php-cs-fixer.executablePath": "~/.vscode/external/php-cs-fixer-v2.phar", // php-cs-fixer-v2.pharの配置パス
+  "[php]": {
+    "editor.defaultFormatter": "junstyle.php-cs-fixer" // defaultFormatterの指定
+  }
+}

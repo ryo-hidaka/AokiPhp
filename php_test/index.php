@@ -339,4 +339,14 @@
 
 // echo __FILE__ ;
 
+$text = 123;
+$test2 = 456;
+echo $text;
+var_dump($text);
+exit;
+echo $test2;
+
+
+
+
 ?>
